@@ -1,0 +1,19 @@
+# 🔐 Environment files (VERY IMPORTANT)
+.env
+
+# 🐍 Python cache files
+__pycache__/
+*.pyc
+
+# 📦 Node modules (if you have frontend)
+node_modules/
+
+# 🧠 VS Code settings (optional)
+.vscode/
+
+# 💻 System files
+.DS_Store
+Thumbs.db
+
+# 📊 Large data files (optional - recommended)
+yf_data/
