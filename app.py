@@ -242,13 +242,17 @@ def register(username, email, password):
     response = requests.post(
         f"{API_URL}/auth/register",
         json=payload,
-        headers={"Content-Type": "application/json"}
+        headers={
+            "Content-Type": "application/json"
+        }
     )
 
     try:
         return response.status_code, response.json()
-    except:
-        return response.status_code, {"message": response.text}
+    except Exception:
+        return response.status_code, {
+            "message": response.text
+        }
 
 def require_login():
     if st.session_state.token is None:
