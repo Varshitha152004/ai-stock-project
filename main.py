@@ -76,7 +76,7 @@ def error_response(code: str, message: str, layer: str, status_code: int):
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
-    ai_client = genai.GenerativeModel("gemini-1.5-flash")
+    ai_client = genai.GenerativeModel("gemini-2.0-flash")
 else:
     ai_client = None
 #if ai_client:
