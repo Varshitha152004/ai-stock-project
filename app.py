@@ -356,7 +356,7 @@ if st.session_state.show_login:
                                 show_error(data)
 
         with col2:
-            if st.button("Cancel", width='stretch'):
+            if st.button("Cancel"):
                 st.session_state.show_login = False
                 st.rerun()
 
@@ -773,7 +773,11 @@ div.stButton > button:hover {
             #  DISPLAY
             # =========================
 
-            st.data_editor(paginated_df, width='stretch', disabled=True)
+            st.data_editor(
+                paginated_df,
+                use_container_width=True,
+                disabled=True
+            )
             
 
             
@@ -844,7 +848,7 @@ div.stButton > button:hover {
             with col2:
                 st.markdown("<br>", unsafe_allow_html=True)  # align vertically
 
-                if st.button(" Add", width='stretch'):
+                if st.button(" Add", use_container_width=True):
 
                     if st.session_state.token is None:
                         st.session_state.show_login = True
@@ -1871,7 +1875,7 @@ elif st.session_state.page == "Alerts":
     # Create button (right side)
     with col_right:
         if st.session_state.alert_view == "alerts":
-            if st.button("➕ Create", width='stretch'):
+            if st.button("➕ Create", use_container_width=True):
                 if st.session_state.token is None:
                     st.session_state.show_login = True
                     st.rerun()
@@ -1995,7 +1999,7 @@ elif st.session_state.page == "Alerts":
                     "Created At": pd.to_datetime(df["created_at"]).dt.strftime("%d-%m-%Y  %H:%M")
                 })
 
-                    st.dataframe(df_display, width='stretch')
+                    st.dataframe(df_display, use_container_width=True)
 
             else:
                 show_error(data)
@@ -2033,7 +2037,7 @@ elif st.session_state.page == "Alerts":
                         "Condition": df["condition"]
                     })
 
-                    st.dataframe(df_display, width='stretch')
+                    st.dataframe(df_display, use_container_width=True)
 
             else:
                 show_error(data)
@@ -2244,7 +2248,7 @@ div[role="radio"][aria-checked="true"] {
 
                     fig.update_layout(xaxis_rangeslider_visible=False)
 
-                    st.plotly_chart(fig, width='stretch')
+                    st.plotly_chart(fig, use_container_width=True)
 
                     # =========================
                     #  OPEN / HIGH / LOW / CLOSE
