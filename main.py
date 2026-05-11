@@ -810,6 +810,27 @@ def score_stock(stock):
 # SCREENER ENDPOINT 
 # ============================================================
 
+@app.get("/gemini-test")
+def gemini_test():
+
+    try:
+
+        response = ai_client.generate_content(
+            "Say hello"
+        )
+
+        return {
+            "success": True,
+            "response": response.text
+        }
+
+    except Exception as e:
+
+        return {
+            "success": False,
+            "error": str(e)
+        }
+
 @app.post("/screener")
 @limiter.limit("5/minute")
 def screener(
@@ -1072,26 +1093,6 @@ def screener(
 
     return success_response(data=results)
 
-@app.get("/gemini-test")
-def gemini_test():
-
-    try:
-
-        response = ai_client.generate_content(
-            "Say hello"
-        )
-
-        return {
-            "success": True,
-            "response": response.text
-        }
-
-    except Exception as e:
-
-        return {
-            "success": False,
-            "error": str(e)
-        }
 
 # ============================================================
 # PORTFOLIO CRUD 
