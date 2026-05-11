@@ -74,7 +74,11 @@ def error_response(code: str, message: str, layer: str, status_code: int):
 # ============================================================
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-ai_client = genai.Client(api_key=GEMINI_API_KEY) if GEMINI_API_KEY else None
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
+    ai_client = genai.GenerativeModel("gemini-1.5-flash")
+else:
+    ai_client = None
 #if ai_client:
     #print("Listing available models...")
     #for model in ai_client.models.list():
@@ -642,7 +646,7 @@ def parse_query_with_llm(query_text: str):
     if not ai_client:
         raise HTTPException(status_code=500, detail="AI service not configured.")
 
-    response = ai_client.models.generate_content(
+    response = ai_client.generate_content(
         model="gemini-2.5-flash",
         contents="""
 You are a deterministic query translator.
@@ -753,7 +757,7 @@ User Query:
 """+query_text
     )
 
-    raw = response.candidates[0].content.parts[0].text.strip()
+    raw = response.text.strip()
 
     # Remove markdown if Gemini adds it
     raw = raw.replace("```json", "").replace("```", "").strip()
