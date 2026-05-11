@@ -28,7 +28,7 @@ if "folder" in params:
 
 if "show_account_popup" not in st.session_state:
     st.session_state.show_account_popup = False
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://ai-stock-project-hj82.onrender.com"
 
 st.set_page_config(
     page_title="StockX AI",
