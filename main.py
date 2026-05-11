@@ -646,9 +646,7 @@ def parse_query_with_llm(query_text: str):
     if not ai_client:
         raise HTTPException(status_code=500, detail="AI service not configured.")
 
-    response = ai_client.generate_content(
-        model="gemini-2.5-flash",
-        contents="""
+    response = ai_client.generate_content("""
 You are a deterministic query translator.
 
 Translate the user query EXACTLY into structured JSON.
