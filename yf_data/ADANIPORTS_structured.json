@@ -1,232 +1,32 @@
 {
     "ticker": "ADANIPORTS",
-    "snapshot_date": "2026-03-31T11:08:51.453441",
+    "snapshot_date": "2026-05-11T12:05:54.119152",
     "company_profile": {
         "name": "Adani Ports and Special Economic Zone Limited",
         "sector": "Industrials",
         "industry": "Marine Shipping",
         "website": "https://www.adaniports.com",
-        "market_cap": 3024176545792,
+        "market_cap": 4046904098816,
         "description": "Adani Ports and Special Economic Zone Limited, together with its subsidiaries, develops, operates, and maintains port infrastructure in India. The company is involved in the operation of ports and terminals, including bulk and break bulk, container, liquid, LPG, LNG, and crude cargo; ports related infrastructure development activities; and development of infrastructure at contiguous Special Economic Zone at Mundra. It also offers logistic services, which include logistic parks, container rail and bulk cargo logistic solutions, and warehousing, as well as auto, road, and agriculture logistic services. In addition, the company operates a fleet of dredging and reclamation service equipment comprising cutter suction, trailing suction hopper, grab, inland cutter suction, water injection, and specialized dredgers; split hopper, flat top, and jack up barges; and multi utility craft, survey vessels, floating crane, drag flow unit, and floating booster, as well as dozers, excavotors, loaders, and other equipment. Further, it provides non-scheduled passenger airline services; hospital and related services; and marine services, such as pilotage, laying, mooring of vessels at berth and mid-stream, and maintenance of buoys. Additionally, the company engages in the development, construction, operation, and maintenance of railway corridors; land development activities; integrated textile park and container freight station businesses; owns and operates harbour tugs, barges, other port crafts, ocean towage and offshore support vessels; and provision of cargo storage-cum logistics services. The company was incorporated in 1998 and is headquartered in Ahmedabad, India.",
         "logo_url": null,
         "Category": null,
-        "Book Value": 310.464,
+        "Book Value": 417.251,
         "Show Profile": false,
-        "Change From Previous Close": -1.8836951,
+        "Change From Previous Close": -0.22159229,
         "Profit after Tax": 0,
         "change percent": 0,
-        "Last Traded Price": 1312.6
+        "Last Traded Price": 1756.5
     },
     "fundamentals": {
-        "pe_ratio": 22.729004,
-        "eps": 57.75,
-        "revenue": 364866306048,
-        "debt": 568506974208,
-        "market_cap": 3024176545792,
-        "revenue_growth": 21.9,
-        "price_change_1y": 12.27802189379968
+        "pe_ratio": 30.144156,
+        "eps": 58.27,
+        "revenue": 387357704192,
+        "debt": 633989890048,
+        "market_cap": 4046904098816,
+        "revenue_growth": 26.5,
+        "price_change_1y": 29.582677843959353
     },
     "historical_prices": [
-        {
-            "date": "2025-04-01",
-            "open": 1173.2916787897027,
-            "high": 1196.180320530299,
-            "low": 1162.3947435962214,
-            "close": 1169.062255859375,
-            "volume": 1584541
-        },
-        {
-            "date": "2025-04-02",
-            "open": 1176.6752438733452,
-            "high": 1193.1450414898375,
-            "low": 1161.698062285485,
-            "close": 1189.6619873046875,
-            "volume": 1232853
-        },
-        {
-            "date": "2025-04-03",
-            "open": 1164.584105619558,
-            "high": 1199.962034967333,
-            "low": 1164.584105619558,
-            "close": 1194.090576171875,
-            "volume": 1300511
-        },
-        {
-            "date": "2025-04-04",
-            "open": 1190.2093575796541,
-            "high": 1194.289482419312,
-            "low": 1137.4659663156726,
-            "close": 1142.7900390625,
-            "volume": 1785093
-        },
-        {
-            "date": "2025-04-07",
-            "open": 1044.8665171016496,
-            "high": 1113.5822534510019,
-            "low": 1036.457477184288,
-            "close": 1105.272705078125,
-            "volume": 2192949
-        },
-        {
-            "date": "2025-04-08",
-            "open": 1129.5047889953614,
-            "high": 1150.0548343421056,
-            "low": 1105.6707938016716,
-            "close": 1125.8724365234375,
-            "volume": 2423486
-        },
-        {
-            "date": "2025-04-09",
-            "open": 1128.3603143084927,
-            "high": 1130.1018414880646,
-            "low": 1106.616127819411,
-            "close": 1126.3203125,
-            "volume": 1537177
-        },
-        {
-            "date": "2025-04-11",
-            "open": 1157.3691990791608,
-            "high": 1164.6339038645829,
-            "low": 1142.441823338673,
-            "close": 1158.9117431640625,
-            "volume": 3536245
-        },
-        {
-            "date": "2025-04-15",
-            "open": 1194.190106659284,
-            "high": 1219.9647340905403,
-            "low": 1173.2917797927466,
-            "close": 1204.9378662109375,
-            "volume": 3176522
-        },
-        {
-            "date": "2025-04-16",
-            "open": 1204.1416350253176,
-            "high": 1229.518173614694,
-            "low": 1195.7822803706053,
-            "close": 1226.9307861328125,
-            "volume": 1909731
-        },
-        {
-            "date": "2025-04-17",
-            "open": 1226.9307931187877,
-            "high": 1276.2906245562544,
-            "low": 1212.69997966847,
-            "close": 1253.302490234375,
-            "volume": 4280765
-        },
-        {
-            "date": "2025-04-21",
-            "open": 1253.3024282395018,
-            "high": 1253.8994989431408,
-            "low": 1203.544511614774,
-            "close": 1237.081298828125,
-            "volume": 6049182
-        },
-        {
-            "date": "2025-04-22",
-            "open": 1243.5498695409763,
-            "high": 1249.5208197354552,
-            "low": 1221.0593147709637,
-            "close": 1227.229248046875,
-            "volume": 2932537
-        },
-        {
-            "date": "2025-04-23",
-            "open": 1234.095866374614,
-            "high": 1236.7828668525535,
-            "low": 1210.908749315716,
-            "close": 1233.1007080078125,
-            "volume": 2580999
-        },
-        {
-            "date": "2025-04-24",
-            "open": 1232.0060474366173,
-            "high": 1241.9576310184964,
-            "low": 1225.6370096483563,
-            "close": 1230.413818359375,
-            "volume": 2133285
-        },
-        {
-            "date": "2025-04-25",
-            "open": 1230.3144073450105,
-            "high": 1237.3800078547386,
-            "low": 1175.4810810365152,
-            "close": 1187.2239990234375,
-            "volume": 3628854
-        },
-        {
-            "date": "2025-04-28",
-            "open": 1182.3476135947096,
-            "high": 1208.8188014593507,
-            "low": 1178.3669801871156,
-            "close": 1204.0421142578125,
-            "volume": 2646406
-        },
-        {
-            "date": "2025-04-29",
-            "open": 1206.131899157721,
-            "high": 1217.9743076119755,
-            "low": 1196.6778949976563,
-            "close": 1210.5106201171875,
-            "volume": 2381980
-        },
-        {
-            "date": "2025-04-30",
-            "open": 1209.2168614651948,
-            "high": 1220.5616907134647,
-            "low": 1198.0711367703298,
-            "close": 1210.610107421875,
-            "volume": 1824334
-        },
-        {
-            "date": "2025-05-02",
-            "open": 1248.92373867037,
-            "high": 1288.7300729706208,
-            "low": 1236.683242281326,
-            "close": 1256.9844970703125,
-            "volume": 10694521
-        },
-        {
-            "date": "2025-05-05",
-            "open": 1283.754359476099,
-            "high": 1370.3331418593707,
-            "low": 1279.4751296861257,
-            "close": 1340.577880859375,
-            "volume": 14191797
-        },
-        {
-            "date": "2025-05-06",
-            "open": 1343.4638503496399,
-            "high": 1349.7333969096571,
-            "low": 1308.6333060813158,
-            "close": 1314.4052734375,
-            "volume": 3604276
-        },
-        {
-            "date": "2025-05-07",
-            "open": 1292.511802753668,
-            "high": 1334.8060355469254,
-            "low": 1292.4121897283621,
-            "close": 1331.720947265625,
-            "volume": 3269847
-        },
-        {
-            "date": "2025-05-08",
-            "open": 1333.5122470928063,
-            "high": 1360.2820321698568,
-            "low": 1310.0265333055384,
-            "close": 1326.6456298828125,
-            "volume": 5077662
-        },
-        {
-            "date": "2025-05-09",
-            "open": 1293.7059173682228,
-            "high": 1318.4853857736734,
-            "low": 1286.3417209273443,
-            "close": 1299.9754638671875,
-            "volume": 2979366
-        },
         {
             "date": "2025-05-12",
             "open": 1353.415440653582,
@@ -2002,6 +1802,222 @@
             "low": 1307.0999755859375,
             "close": 1312.5999755859375,
             "volume": 2856500
+        },
+        {
+            "date": "2026-04-01",
+            "open": 1351.199951171875,
+            "high": 1405.4000244140625,
+            "low": 1348.699951171875,
+            "close": 1385.4000244140625,
+            "volume": 3684039
+        },
+        {
+            "date": "2026-04-02",
+            "open": 1354.4000244140625,
+            "high": 1384.199951171875,
+            "low": 1332.5999755859375,
+            "close": 1377.5999755859375,
+            "volume": 3210456
+        },
+        {
+            "date": "2026-04-06",
+            "open": 1379.800048828125,
+            "high": 1391.800048828125,
+            "low": 1348.0999755859375,
+            "close": 1387.0999755859375,
+            "volume": 2519628
+        },
+        {
+            "date": "2026-04-07",
+            "open": 1375.0,
+            "high": 1390.0,
+            "low": 1368.4000244140625,
+            "close": 1381.0,
+            "volume": 1812944
+        },
+        {
+            "date": "2026-04-08",
+            "open": 1464.9000244140625,
+            "high": 1505.699951171875,
+            "low": 1449.0,
+            "close": 1453.300048828125,
+            "volume": 7636467
+        },
+        {
+            "date": "2026-04-09",
+            "open": 1437.0,
+            "high": 1456.199951171875,
+            "low": 1415.199951171875,
+            "close": 1447.4000244140625,
+            "volume": 3159307
+        },
+        {
+            "date": "2026-04-10",
+            "open": 1442.0,
+            "high": 1478.0999755859375,
+            "low": 1438.300048828125,
+            "close": 1475.300048828125,
+            "volume": 4026881
+        },
+        {
+            "date": "2026-04-13",
+            "open": 1426.800048828125,
+            "high": 1477.9000244140625,
+            "low": 1421.0,
+            "close": 1465.300048828125,
+            "volume": 3629785
+        },
+        {
+            "date": "2026-04-15",
+            "open": 1484.300048828125,
+            "high": 1515.0,
+            "low": 1480.9000244140625,
+            "close": 1511.800048828125,
+            "volume": 4415637
+        },
+        {
+            "date": "2026-04-16",
+            "open": 1524.9000244140625,
+            "high": 1555.800048828125,
+            "low": 1510.0,
+            "close": 1549.800048828125,
+            "volume": 7476052
+        },
+        {
+            "date": "2026-04-17",
+            "open": 1559.0,
+            "high": 1578.5,
+            "low": 1549.199951171875,
+            "close": 1573.4000244140625,
+            "volume": 6024587
+        },
+        {
+            "date": "2026-04-20",
+            "open": 1572.4000244140625,
+            "high": 1600.5,
+            "low": 1566.0999755859375,
+            "close": 1578.4000244140625,
+            "volume": 2998603
+        },
+        {
+            "date": "2026-04-21",
+            "open": 1578.5,
+            "high": 1611.9000244140625,
+            "low": 1578.4000244140625,
+            "close": 1594.0999755859375,
+            "volume": 4276868
+        },
+        {
+            "date": "2026-04-22",
+            "open": 1588.9000244140625,
+            "high": 1603.4000244140625,
+            "low": 1582.0,
+            "close": 1588.5999755859375,
+            "volume": 1918773
+        },
+        {
+            "date": "2026-04-23",
+            "open": 1575.0,
+            "high": 1611.0,
+            "low": 1566.199951171875,
+            "close": 1602.9000244140625,
+            "volume": 2406876
+        },
+        {
+            "date": "2026-04-24",
+            "open": 1612.0,
+            "high": 1618.800048828125,
+            "low": 1556.5,
+            "close": 1585.0999755859375,
+            "volume": 2290223
+        },
+        {
+            "date": "2026-04-27",
+            "open": 1600.0,
+            "high": 1649.9000244140625,
+            "low": 1593.0,
+            "close": 1628.5,
+            "volume": 3787783
+        },
+        {
+            "date": "2026-04-28",
+            "open": 1628.4000244140625,
+            "high": 1648.0,
+            "low": 1624.5,
+            "close": 1637.5999755859375,
+            "volume": 2500914
+        },
+        {
+            "date": "2026-04-29",
+            "open": 1645.0,
+            "high": 1672.0,
+            "low": 1644.9000244140625,
+            "close": 1661.0999755859375,
+            "volume": 2345365
+        },
+        {
+            "date": "2026-04-30",
+            "open": 1650.0,
+            "high": 1677.0,
+            "low": 1596.800048828125,
+            "close": 1657.300048828125,
+            "volume": 6313698
+        },
+        {
+            "date": "2026-05-01",
+            "open": 1657.300048828125,
+            "high": 1657.300048828125,
+            "low": 1657.300048828125,
+            "close": 1657.300048828125,
+            "volume": 0
+        },
+        {
+            "date": "2026-05-04",
+            "open": 1702.0,
+            "high": 1748.5999755859375,
+            "low": 1687.300048828125,
+            "close": 1742.5999755859375,
+            "volume": 7171346
+        },
+        {
+            "date": "2026-05-05",
+            "open": 1749.800048828125,
+            "high": 1757.4000244140625,
+            "low": 1718.699951171875,
+            "close": 1725.0,
+            "volume": 4357699
+        },
+        {
+            "date": "2026-05-06",
+            "open": 1750.0,
+            "high": 1762.4000244140625,
+            "low": 1718.5999755859375,
+            "close": 1748.300048828125,
+            "volume": 3001204
+        },
+        {
+            "date": "2026-05-07",
+            "open": 1748.300048828125,
+            "high": 1755.9000244140625,
+            "low": 1708.0,
+            "close": 1732.800048828125,
+            "volume": 3280485
+        },
+        {
+            "date": "2026-05-08",
+            "open": 1740.4000244140625,
+            "high": 1792.0,
+            "low": 1727.699951171875,
+            "close": 1760.4000244140625,
+            "volume": 4984856
+        },
+        {
+            "date": "2026-05-11",
+            "open": 1757.0999755859375,
+            "high": 1770.5,
+            "low": 1733.0999755859375,
+            "close": 1756.5,
+            "volume": 2764390
         }
     ]
 }

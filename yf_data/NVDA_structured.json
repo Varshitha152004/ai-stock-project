@@ -1,256 +1,32 @@
 {
     "ticker": "NVDA",
-    "snapshot_date": "2026-03-31T11:07:24.044471",
+    "snapshot_date": "2026-05-11T12:34:19.322093",
     "company_profile": {
         "name": "NVIDIA Corporation",
         "sector": "Technology",
         "industry": "Semiconductors",
         "website": "https://www.nvidia.com",
-        "market_cap": 4014456963072,
-        "description": "NVIDIA Corporation operates as a data center scale AI infrastructure company. The company operates through two segments, Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. The company sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants worldwide. It has a collaboration with Tech Mahindra Limited to develop artificial intelligence powered telco network operations reasoning agent. The company has a strategic partnership with Lumentum Holdings Inc. to develop optics technologies for AI and data centers. It also has a strategic partnership with Nebius Group N.V. to develop and deploy hyperscale cloud for the artificial intelligence market. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+        "market_cap": 5230849163264,
+        "description": "NVIDIA Corporation operates as a data center scale AI infrastructure company. The company operates through two segments, Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. The company sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturers, distributors, automotive manufacturers and tier-1 automotive suppliers, and other ecosystem participants worldwide. It has a collaboration with Tech Mahindra Limited to develop artificial intelligence powered telco network operations reasoning agent. The company has a strategic partnership with Lumentum Holdings Inc. to develop optics technologies for AI and data centers. It also has a strategic partnership with Nebius Group N.V. to develop and deploy hyperscale cloud for the artificial intelligence market; and has a strategic partnership with IREN Limited to accelerate deployment of up to 5 gigawatts of infrastructure. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
         "logo_url": null,
         "Category": null,
         "Book Value": 6.472,
         "Show Profile": false,
-        "Change From Previous Close": -1.40282,
+        "Change From Previous Close": 1.76707,
         "Profit after Tax": 0,
         "change percent": 0,
-        "Last Traded Price": 165.17
+        "Last Traded Price": 215.217
     },
     "fundamentals": {
-        "pe_ratio": 33.63951,
+        "pe_ratio": 43.832382,
         "eps": 4.91,
         "revenue": 215938007040,
         "debt": 11411999744,
-        "market_cap": 4014456963072,
+        "market_cap": 5230849163264,
         "revenue_growth": 73.2,
-        "price_change_1y": 52.434884197108126
+        "price_change_1y": 84.52696453808194
     },
     "historical_prices": [
-        {
-            "date": "2025-03-31",
-            "open": 105.10522740758995,
-            "high": 110.9338556226425,
-            "low": 103.6255803841977,
-            "close": 108.35446166992188,
-            "volume": 299212700
-        },
-        {
-            "date": "2025-04-01",
-            "open": 108.49443304563391,
-            "high": 110.17403760023085,
-            "low": 106.4449205320371,
-            "close": 110.12405395507812,
-            "volume": 222614000
-        },
-        {
-            "date": "2025-04-02",
-            "open": 107.26472214391917,
-            "high": 111.95361956622256,
-            "low": 106.76483994973236,
-            "close": 110.39398193359375,
-            "volume": 220601200
-        },
-        {
-            "date": "2025-04-03",
-            "open": 103.48562015563714,
-            "high": 105.60511590388697,
-            "low": 101.57606639857329,
-            "close": 101.7760238647461,
-            "volume": 338769400
-        },
-        {
-            "date": "2025-04-04",
-            "open": 98.88670323249266,
-            "high": 100.10640942744341,
-            "low": 92.08830207120735,
-            "close": 94.28778076171875,
-            "volume": 532273800
-        },
-        {
-            "date": "2025-04-07",
-            "open": 87.43938789235719,
-            "high": 101.72602116602216,
-            "low": 86.59958951154498,
-            "close": 97.61698913574219,
-            "volume": 611041300
-        },
-        {
-            "date": "2025-04-08",
-            "open": 103.78553826456235,
-            "high": 105.82505852328022,
-            "low": 94.43774279946976,
-            "close": 96.27731323242188,
-            "volume": 476243400
-        },
-        {
-            "date": "2025-04-09",
-            "open": 98.86669810018236,
-            "high": 115.07287764897656,
-            "low": 97.5070179445592,
-            "close": 114.30306243896484,
-            "volume": 612918300
-        },
-        {
-            "date": "2025-04-10",
-            "open": 109.34423379452805,
-            "high": 110.83388059600858,
-            "low": 99.12664053501021,
-            "close": 107.5446548461914,
-            "volume": 437812400
-        },
-        {
-            "date": "2025-04-11",
-            "open": 108.47443427245335,
-            "high": 111.52371865557488,
-            "low": 107.45467796999777,
-            "close": 110.90386199951172,
-            "volume": 313417300
-        },
-        {
-            "date": "2025-04-14",
-            "open": 114.08311462021162,
-            "high": 114.2630725146749,
-            "low": 109.04430120283689,
-            "close": 110.68391418457031,
-            "volume": 264705000
-        },
-        {
-            "date": "2025-04-15",
-            "open": 110.94385517244878,
-            "high": 113.5932323217664,
-            "low": 110.47396469045397,
-            "close": 112.1735610961914,
-            "volume": 228966900
-        },
-        {
-            "date": "2025-04-16",
-            "open": 104.52537649088836,
-            "high": 106.76484672728219,
-            "low": 100.4263361362673,
-            "close": 104.46538543701172,
-            "volume": 397016900
-        },
-        {
-            "date": "2025-04-17",
-            "open": 104.4253812132841,
-            "high": 104.44538077133734,
-            "low": 100.02642426353728,
-            "close": 101.46607971191406,
-            "volume": 292517500
-        },
-        {
-            "date": "2025-04-21",
-            "open": 98.74673137333838,
-            "high": 99.41657935183265,
-            "low": 95.01761424618036,
-            "close": 96.88717651367188,
-            "volume": 288501100
-        },
-        {
-            "date": "2025-04-22",
-            "open": 98.75672452641882,
-            "high": 99.78648062043173,
-            "low": 97.2570779520085,
-            "close": 98.86669921875,
-            "volume": 241004800
-        },
-        {
-            "date": "2025-04-23",
-            "open": 104.49537749742674,
-            "high": 104.77531795205407,
-            "low": 101.99596635952085,
-            "close": 102.68580627441406,
-            "volume": 247526000
-        },
-        {
-            "date": "2025-04-24",
-            "open": 103.45562063709751,
-            "high": 106.51489717654988,
-            "low": 103.08570507328525,
-            "close": 106.40492248535156,
-            "volume": 220815000
-        },
-        {
-            "date": "2025-04-25",
-            "open": 106.82483233532861,
-            "high": 111.8936379045766,
-            "low": 105.70510100806126,
-            "close": 110.98385620117188,
-            "volume": 251064700
-        },
-        {
-            "date": "2025-04-28",
-            "open": 109.66416443154382,
-            "high": 110.34400455936343,
-            "low": 105.9950231207954,
-            "close": 108.70439147949219,
-            "volume": 207708500
-        },
-        {
-            "date": "2025-04-29",
-            "open": 107.64462809509338,
-            "high": 110.1740307356611,
-            "low": 107.41468656100368,
-            "close": 108.99430847167969,
-            "volume": 170444300
-        },
-        {
-            "date": "2025-04-30",
-            "open": 104.44538450923935,
-            "high": 108.89433288574219,
-            "low": 104.05547701680861,
-            "close": 108.89433288574219,
-            "volume": 235044600
-        },
-        {
-            "date": "2025-05-01",
-            "open": 113.05335693358144,
-            "high": 114.91291927434723,
-            "low": 111.27377757314032,
-            "close": 111.58370208740234,
-            "volume": 236121500
-        },
-        {
-            "date": "2025-05-02",
-            "open": 114.15310576985596,
-            "high": 115.37281962529518,
-            "low": 113.34329900218786,
-            "close": 114.47303009033203,
-            "volume": 190194800
-        },
-        {
-            "date": "2025-05-05",
-            "open": 112.88340074602954,
-            "high": 114.64298057759626,
-            "low": 112.63345964895049,
-            "close": 113.79318237304688,
-            "volume": 133163200
-        },
-        {
-            "date": "2025-05-06",
-            "open": 111.4537475013017,
-            "high": 114.7129742117387,
-            "low": 110.7938992837595,
-            "close": 113.51325988769531,
-            "volume": 158525600
-        },
-        {
-            "date": "2025-05-07",
-            "open": 113.02337494499027,
-            "high": 117.65228163619798,
-            "low": 112.25355204144066,
-            "close": 117.03242492675781,
-            "volume": 206758800
-        },
-        {
-            "date": "2025-05-08",
-            "open": 118.22215145930612,
-            "high": 118.65205049698933,
-            "low": 115.82271514729747,
-            "close": 117.34236145019531,
-            "volume": 198428100
-        },
         {
             "date": "2025-05-09",
             "open": 117.32235248570746,
@@ -2033,7 +1809,231 @@
             "high": 169.4499969482422,
             "low": 164.27000427246094,
             "close": 165.1699981689453,
-            "volume": 184702300
+            "volume": 185627000
+        },
+        {
+            "date": "2026-03-31",
+            "open": 166.97000122070312,
+            "high": 174.6199951171875,
+            "low": 166.9600067138672,
+            "close": 174.39999389648438,
+            "volume": 226181300
+        },
+        {
+            "date": "2026-04-01",
+            "open": 176.0,
+            "high": 177.3699951171875,
+            "low": 174.75,
+            "close": 175.75,
+            "volume": 168132000
+        },
+        {
+            "date": "2026-04-02",
+            "open": 172.17999267578125,
+            "high": 177.49000549316406,
+            "low": 171.3699951171875,
+            "close": 177.38999938964844,
+            "volume": 143143200
+        },
+        {
+            "date": "2026-04-06",
+            "open": 177.16000366210938,
+            "high": 177.7899932861328,
+            "low": 175.75999450683594,
+            "close": 177.63999938964844,
+            "volume": 107564300
+        },
+        {
+            "date": "2026-04-07",
+            "open": 175.72999572753906,
+            "high": 178.22999572753906,
+            "low": 173.66000366210938,
+            "close": 178.10000610351562,
+            "volume": 132534900
+        },
+        {
+            "date": "2026-04-08",
+            "open": 184.5,
+            "high": 185.25999450683594,
+            "low": 180.3000030517578,
+            "close": 182.0800018310547,
+            "volume": 147732700
+        },
+        {
+            "date": "2026-04-09",
+            "open": 181.83999633789062,
+            "high": 184.0800018310547,
+            "low": 180.6199951171875,
+            "close": 183.91000366210938,
+            "volume": 116428500
+        },
+        {
+            "date": "2026-04-10",
+            "open": 184.30999755859375,
+            "high": 190.0,
+            "low": 184.3000030517578,
+            "close": 188.6300048828125,
+            "volume": 160459500
+        },
+        {
+            "date": "2026-04-13",
+            "open": 186.02999877929688,
+            "high": 189.66000366210938,
+            "low": 185.74000549316406,
+            "close": 189.30999755859375,
+            "volume": 133648200
+        },
+        {
+            "date": "2026-04-14",
+            "open": 190.83999633789062,
+            "high": 196.50999450683594,
+            "low": 190.77000427246094,
+            "close": 196.50999450683594,
+            "volume": 161307000
+        },
+        {
+            "date": "2026-04-15",
+            "open": 196.5399932861328,
+            "high": 200.39999389648438,
+            "low": 195.74000549316406,
+            "close": 198.8699951171875,
+            "volume": 185338400
+        },
+        {
+            "date": "2026-04-16",
+            "open": 197.42999267578125,
+            "high": 199.85000610351562,
+            "low": 195.80999755859375,
+            "close": 198.35000610351562,
+            "volume": 134012900
+        },
+        {
+            "date": "2026-04-17",
+            "open": 199.89999389648438,
+            "high": 201.6999969482422,
+            "low": 199.27000427246094,
+            "close": 201.67999267578125,
+            "volume": 160324400
+        },
+        {
+            "date": "2026-04-20",
+            "open": 199.97999572753906,
+            "high": 202.1699981689453,
+            "low": 197.83999633789062,
+            "close": 202.05999755859375,
+            "volume": 119381400
+        },
+        {
+            "date": "2026-04-21",
+            "open": 202.1300048828125,
+            "high": 202.75,
+            "low": 199.0,
+            "close": 199.8800048828125,
+            "volume": 107945300
+        },
+        {
+            "date": "2026-04-22",
+            "open": 200.99000549316406,
+            "high": 202.5,
+            "low": 199.0,
+            "close": 202.5,
+            "volume": 107501000
+        },
+        {
+            "date": "2026-04-23",
+            "open": 202.4600067138672,
+            "high": 203.8300018310547,
+            "low": 197.22000122070312,
+            "close": 199.63999938964844,
+            "volume": 113561800
+        },
+        {
+            "date": "2026-04-24",
+            "open": 199.9600067138672,
+            "high": 210.9499969482422,
+            "low": 199.80999755859375,
+            "close": 208.27000427246094,
+            "volume": 214134400
+        },
+        {
+            "date": "2026-04-27",
+            "open": 209.64999389648438,
+            "high": 216.8300018310547,
+            "low": 207.3800048828125,
+            "close": 216.61000061035156,
+            "volume": 187172400
+        },
+        {
+            "date": "2026-04-28",
+            "open": 209.49000549316406,
+            "high": 214.72999572753906,
+            "low": 208.1999969482422,
+            "close": 213.1699981689453,
+            "volume": 180275400
+        },
+        {
+            "date": "2026-04-29",
+            "open": 212.6999969482422,
+            "high": 212.72000122070312,
+            "low": 207.5800018310547,
+            "close": 209.25,
+            "volume": 123711800
+        },
+        {
+            "date": "2026-04-30",
+            "open": 209.92999267578125,
+            "high": 210.3000030517578,
+            "low": 198.6999969482422,
+            "close": 199.57000732421875,
+            "volume": 225239200
+        },
+        {
+            "date": "2026-05-01",
+            "open": 201.27999877929688,
+            "high": 203.0,
+            "low": 197.1199951171875,
+            "close": 198.4499969482422,
+            "volume": 128647000
+        },
+        {
+            "date": "2026-05-04",
+            "open": 199.5,
+            "high": 201.72999572753906,
+            "low": 194.74000549316406,
+            "close": 198.47999572753906,
+            "volume": 125368100
+        },
+        {
+            "date": "2026-05-05",
+            "open": 199.3000030517578,
+            "high": 200.24000549316406,
+            "low": 196.02999877929688,
+            "close": 196.5,
+            "volume": 113406600
+        },
+        {
+            "date": "2026-05-06",
+            "open": 199.88999938964844,
+            "high": 208.27000427246094,
+            "low": 198.61000061035156,
+            "close": 207.8300018310547,
+            "volume": 188362800
+        },
+        {
+            "date": "2026-05-07",
+            "open": 208.33999633789062,
+            "high": 214.1999969482422,
+            "low": 206.5,
+            "close": 211.5,
+            "volume": 168307900
+        },
+        {
+            "date": "2026-05-08",
+            "open": 213.02999877929688,
+            "high": 217.8000030517578,
+            "low": 212.88999938964844,
+            "close": 215.1999969482422,
+            "volume": 136101000
         }
     ]
 }

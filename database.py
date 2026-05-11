@@ -1,4 +1,9 @@
+import os
 from sqlalchemy import create_engine
+from dotenv import load_dotenv
 
-DATABASE_URL = "postgresql://postgres:newpassword123@localhost:5432/stock_screener"
+load_dotenv()
+
+DATABASE_URL = os.getenv("DATABASE_URL")
+
 engine = create_engine(DATABASE_URL)

@@ -1,232 +1,32 @@
 {
     "ticker": "INFY",
-    "snapshot_date": "2026-03-31T11:07:26.894248",
+    "snapshot_date": "2026-05-11T12:06:46.152115",
     "company_profile": {
         "name": "Infosys Limited",
         "sector": "Technology",
         "industry": "Information Technology Services",
         "website": "https://www.infosys.com",
-        "market_cap": 5060687298560,
-        "description": "Infosys Limited, together with its subsidiaries, provides consulting, technology, outsourcing, and digital services in North America, Europe, India, Switzerland, and internationally. It provides digital marketing and digital workplace, digital commerce, digital experience and interactions, and metaverse; data analytics and AI, applied AI, generative AI, and sustainability; blockchain, engineering, and Internet of Things; enterprise agile DevOps, API economy and microservices, application modernization, cloud, digital process automation, digital supply chain, Microsoft business application and cloud business, service experience transformation, energy transition, Network Transformation Services, Infrastructure Services cyber security, and quality engineering solutions; Oracle, SAP, and Saleforce solutions; Topaz, an AI-first set of services, solutions, and platforms using generative AI technologies; and Aster, a set of AI-amplified marketing services, solutions, and platforms. The company also offers Finacle, a core banking solution; Edge suite of products; Panaya platform, Infosys Equinox, Infosys Live Enterprise Suite, Infosys Wingspan, Infosys Helix, Infosys Meridian, Infosys Polycloud, Infosys Cortex, and Stater digital platforms; and Infosys McCamish, an insurance platform. It serves aerospace and defense, agriculture, automotive, chemical manufacturing, communication, consumer packaged goods, education, engineering procurement and construction, financial, healthcare, high technology, industrial manufacturing, information services and publishing, insurance, life science, logistics and distribution, media, entertainment, mining, oil and gas, private equity, professional, public, retail, semiconductor, travel, hospitality, utilities, and waste management industries. The company has a strategic collaboration with Anthropic PBC for the development of enterprise AI solutions to companies across telecommunications, financial services, manufacturing, and software development. Infosys Limited has strategic collaboration with Intel to develop purpose-built agentic services suite. The company was formerly known as Infosys Technologies Limited and changed its name to Infosys Limited in June 2011. Infosys Limited was incorporated in 1981 and is headquartered in Bengaluru, India.",
+        "market_cap": 4802179235840,
+        "description": "Infosys Limited provides consulting, technology, outsourcing, and digital services worldwide. It provides digital marketing and digital workplace, digital commerce, digital experience and interactions, and metaverse; data analytics and AI, applied AI, generative AI, and sustainability; blockchain, engineering, and Internet of Things; enterprise agile DevOps, API economy and microservices, application modernization, cloud, digital process automation, digital supply chain, Microsoft business application and cloud business, service experience transformation, energy transition, Network Transformation Services, Infrastructure Services cyber security, and quality engineering solutions; Oracle, SAP, and Saleforce solutions; Topaz, an AI-first set of services, solutions, and platforms using generative AI technologies; and Aster, a set of AI-amplified marketing services, solutions, and platforms. The company also offers Finacle, a core banking solution; Edge suite of products; Panaya platform, Infosys Equinox, Infosys Live Enterprise Suite, Infosys Wingspan, Infosys Helix, Infosys Meridian, Infosys Polycloud, Infosys Cortex, and Stater digital platforms; and Infosys McCamish, an insurance platform. It serves aerospace and defense, agriculture, automotive, chemical manufacturing, communication, consumer packaged goods, education, engineering procurement and construction, financial, healthcare, high technology, industrial manufacturing, information services and publishing, insurance, life science, logistics and distribution, media, entertainment, mining, oil and gas, private equity, professional, public, retail, semiconductor, travel, hospitality, utilities, and waste management industries. It has a strategic collaboration with Anthropic PBC, Intel, and Harness Inc. The company was formerly known as Infosys Technologies Limited and changed its name to Infosys Limited in June 2011. Infosys Limited was incorporated in 1981 and is headquartered in Bengaluru, India.",
         "logo_url": null,
         "Category": null,
-        "Book Value": 216.30331,
+        "Book Value": 213.1117,
         "Show Profile": false,
-        "Change From Previous Close": -1.5042905,
+        "Change From Previous Close": 0.6275462,
         "Profit after Tax": 0,
         "change percent": 0,
-        "Last Traded Price": 1250.6
+        "Last Traded Price": 1186.6
     },
     "fundamentals": {
-        "pe_ratio": 17.122124,
-        "eps": 73.04,
-        "revenue": 19847000064,
-        "debt": 978000000,
-        "market_cap": 5060687298560,
-        "revenue_growth": 3.2,
-        "price_change_1y": -15.649477652277833
+        "pe_ratio": 15.6978445,
+        "eps": 75.59,
+        "revenue": 20157999104,
+        "debt": 967000000,
+        "market_cap": 4802179235840,
+        "revenue_growth": 6.6000000000000005,
+        "price_change_1y": -24.898918319018097
     },
     "historical_prices": [
-        {
-            "date": "2025-04-01",
-            "open": 1495.0061979771754,
-            "high": 1502.92196020728,
-            "low": 1474.2212903040318,
-            "close": 1482.6226806640625,
-            "volume": 12680733
-        },
-        {
-            "date": "2025-04-02",
-            "open": 1491.0726643663595,
-            "high": 1510.9349273715397,
-            "low": 1491.0726643663595,
-            "close": 1505.593017578125,
-            "volume": 6193478
-        },
-        {
-            "date": "2025-04-03",
-            "open": 1490.5385603678294,
-            "high": 1490.5385603678294,
-            "low": 1442.3642697947264,
-            "close": 1453.485107421875,
-            "volume": 10459504
-        },
-        {
-            "date": "2025-04-04",
-            "open": 1418.5199114659142,
-            "high": 1429.6893595876932,
-            "low": 1406.3792069857197,
-            "close": 1409.92431640625,
-            "volume": 9590254
-        },
-        {
-            "date": "2025-04-07",
-            "open": 1313.1385736419368,
-            "high": 1365.489314158466,
-            "low": 1269.4320382766355,
-            "close": 1356.602294921875,
-            "volume": 21715252
-        },
-        {
-            "date": "2025-04-08",
-            "open": 1389.8677955834949,
-            "high": 1414.6348317731379,
-            "low": 1374.3276944448953,
-            "close": 1387.7310791015625,
-            "volume": 12805001
-        },
-        {
-            "date": "2025-04-09",
-            "open": 1364.663707842691,
-            "high": 1368.9371407012397,
-            "low": 1342.1791008495861,
-            "close": 1363.3524169921875,
-            "volume": 8546854
-        },
-        {
-            "date": "2025-04-11",
-            "open": 1370.6854425398662,
-            "high": 1397.4436008179698,
-            "low": 1356.893650613513,
-            "close": 1368.9371337890625,
-            "volume": 12567440
-        },
-        {
-            "date": "2025-04-15",
-            "open": 1404.0480742507405,
-            "high": 1406.087688754894,
-            "low": 1368.5001176189407,
-            "close": 1385.011474609375,
-            "volume": 10178530
-        },
-        {
-            "date": "2025-04-16",
-            "open": 1384.0401507759727,
-            "high": 1386.4682913913693,
-            "low": 1356.6507720589223,
-            "close": 1372.482177734375,
-            "volume": 12022740
-        },
-        {
-            "date": "2025-04-17",
-            "open": 1357.8163531049115,
-            "high": 1388.7023519091767,
-            "low": 1338.6826507754836,
-            "close": 1378.6983642578125,
-            "volume": 14264227
-        },
-        {
-            "date": "2025-04-21",
-            "open": 1369.4714582615436,
-            "high": 1429.4951483248678,
-            "low": 1369.4714582615436,
-            "close": 1409.29296875,
-            "volume": 15648970
-        },
-        {
-            "date": "2025-04-22",
-            "open": 1398.6091260339042,
-            "high": 1398.6091260339042,
-            "low": 1378.5041672717928,
-            "close": 1381.903564453125,
-            "volume": 9399738
-        },
-        {
-            "date": "2025-04-23",
-            "open": 1404.4366498623076,
-            "high": 1445.0352117850275,
-            "low": 1398.2205856526791,
-            "close": 1432.5059814453125,
-            "volume": 11136642
-        },
-        {
-            "date": "2025-04-24",
-            "open": 1427.6496829084983,
-            "high": 1440.2760150192205,
-            "low": 1419.4911061400271,
-            "close": 1429.1065673828125,
-            "volume": 7114292
-        },
-        {
-            "date": "2025-04-25",
-            "open": 1433.0887071514799,
-            "high": 1458.535575435,
-            "low": 1421.4336312546193,
-            "close": 1437.653564453125,
-            "volume": 8329979
-        },
-        {
-            "date": "2025-04-28",
-            "open": 1437.6534907325017,
-            "high": 1446.7833234291916,
-            "low": 1423.1818670852326,
-            "close": 1439.4989013671875,
-            "volume": 5886253
-        },
-        {
-            "date": "2025-04-29",
-            "open": 1439.4018262859975,
-            "high": 1466.4027986571466,
-            "low": 1431.7288778586658,
-            "close": 1454.456298828125,
-            "volume": 8056743
-        },
-        {
-            "date": "2025-04-30",
-            "open": 1453.7764926957282,
-            "high": 1465.431568419441,
-            "low": 1439.984581952398,
-            "close": 1456.9815673828125,
-            "volume": 7704183
-        },
-        {
-            "date": "2025-05-02",
-            "open": 1456.5930649551544,
-            "high": 1479.4175886205041,
-            "low": 1453.1936678135066,
-            "close": 1463.586181640625,
-            "volume": 7402310
-        },
-        {
-            "date": "2025-05-05",
-            "open": 1471.4532464465005,
-            "high": 1479.2232965927526,
-            "low": 1459.6039673980883,
-            "close": 1465.2371826171875,
-            "volume": 4282493
-        },
-        {
-            "date": "2025-05-06",
-            "open": 1462.7120452184295,
-            "high": 1472.0360823521305,
-            "low": 1456.0103527730441,
-            "close": 1468.053955078125,
-            "volume": 4270530
-        },
-        {
-            "date": "2025-05-07",
-            "open": 1456.8844481471906,
-            "high": 1475.1441139885928,
-            "low": 1453.5821530190785,
-            "close": 1464.9459228515625,
-            "volume": 5691799
-        },
-        {
-            "date": "2025-05-08",
-            "open": 1464.654491996011,
-            "high": 1472.910170498641,
-            "low": 1458.0499017692832,
-            "close": 1467.956787109375,
-            "volume": 8424409
-        },
-        {
-            "date": "2025-05-09",
-            "open": 1457.5642989506216,
-            "high": 1467.9568126185206,
-            "low": 1451.1540310083215,
-            "close": 1464.2659912109375,
-            "volume": 4478653
-        },
         {
             "date": "2025-05-12",
             "open": 1492.8209942326298,
@@ -2002,6 +1802,222 @@
             "low": 1243.0,
             "close": 1250.5999755859375,
             "volume": 14108486
+        },
+        {
+            "date": "2026-04-01",
+            "open": 1290.0,
+            "high": 1303.0,
+            "low": 1269.5,
+            "close": 1275.699951171875,
+            "volume": 8137156
+        },
+        {
+            "date": "2026-04-02",
+            "open": 1260.0,
+            "high": 1305.4000244140625,
+            "low": 1259.800048828125,
+            "close": 1300.800048828125,
+            "volume": 12873492
+        },
+        {
+            "date": "2026-04-06",
+            "open": 1301.4000244140625,
+            "high": 1320.0,
+            "low": 1299.0,
+            "close": 1306.199951171875,
+            "volume": 10208682
+        },
+        {
+            "date": "2026-04-07",
+            "open": 1302.0,
+            "high": 1345.0999755859375,
+            "low": 1293.5,
+            "close": 1339.4000244140625,
+            "volume": 15355792
+        },
+        {
+            "date": "2026-04-08",
+            "open": 1349.0,
+            "high": 1376.9000244140625,
+            "low": 1331.0,
+            "close": 1346.199951171875,
+            "volume": 16030133
+        },
+        {
+            "date": "2026-04-09",
+            "open": 1329.9000244140625,
+            "high": 1337.5,
+            "low": 1314.0,
+            "close": 1331.5999755859375,
+            "volume": 14894607
+        },
+        {
+            "date": "2026-04-10",
+            "open": 1318.0,
+            "high": 1318.9000244140625,
+            "low": 1283.300048828125,
+            "close": 1292.5,
+            "volume": 19233369
+        },
+        {
+            "date": "2026-04-13",
+            "open": 1272.0,
+            "high": 1289.0,
+            "low": 1265.699951171875,
+            "close": 1276.800048828125,
+            "volume": 10366082
+        },
+        {
+            "date": "2026-04-15",
+            "open": 1306.300048828125,
+            "high": 1322.5,
+            "low": 1300.5,
+            "close": 1305.300048828125,
+            "volume": 12098912
+        },
+        {
+            "date": "2026-04-16",
+            "open": 1322.0999755859375,
+            "high": 1331.0,
+            "low": 1309.0,
+            "close": 1319.199951171875,
+            "volume": 18527029
+        },
+        {
+            "date": "2026-04-17",
+            "open": 1313.0,
+            "high": 1328.300048828125,
+            "low": 1306.0999755859375,
+            "close": 1318.699951171875,
+            "volume": 12064048
+        },
+        {
+            "date": "2026-04-20",
+            "open": 1320.0,
+            "high": 1324.9000244140625,
+            "low": 1308.0999755859375,
+            "close": 1312.5999755859375,
+            "volume": 7172300
+        },
+        {
+            "date": "2026-04-21",
+            "open": 1310.0,
+            "high": 1325.0,
+            "low": 1299.300048828125,
+            "close": 1313.199951171875,
+            "volume": 10057440
+        },
+        {
+            "date": "2026-04-22",
+            "open": 1295.0,
+            "high": 1297.699951171875,
+            "low": 1255.9000244140625,
+            "close": 1268.5999755859375,
+            "volume": 20088378
+        },
+        {
+            "date": "2026-04-23",
+            "open": 1254.0,
+            "high": 1265.699951171875,
+            "low": 1226.0,
+            "close": 1240.5999755859375,
+            "volume": 14792854
+        },
+        {
+            "date": "2026-04-24",
+            "open": 1200.0,
+            "high": 1223.9000244140625,
+            "low": 1152.199951171875,
+            "close": 1154.5999755859375,
+            "volume": 42078914
+        },
+        {
+            "date": "2026-04-27",
+            "open": 1154.5999755859375,
+            "high": 1179.9000244140625,
+            "low": 1154.5,
+            "close": 1170.300048828125,
+            "volume": 19579883
+        },
+        {
+            "date": "2026-04-28",
+            "open": 1162.699951171875,
+            "high": 1169.4000244140625,
+            "low": 1149.800048828125,
+            "close": 1152.0999755859375,
+            "volume": 12720276
+        },
+        {
+            "date": "2026-04-29",
+            "open": 1158.5,
+            "high": 1178.199951171875,
+            "low": 1156.800048828125,
+            "close": 1167.5,
+            "volume": 8303109
+        },
+        {
+            "date": "2026-04-30",
+            "open": 1167.5,
+            "high": 1189.800048828125,
+            "low": 1159.5999755859375,
+            "close": 1181.800048828125,
+            "volume": 12205669
+        },
+        {
+            "date": "2026-05-01",
+            "open": 1181.800048828125,
+            "high": 1181.800048828125,
+            "low": 1181.800048828125,
+            "close": 1181.800048828125,
+            "volume": 0
+        },
+        {
+            "date": "2026-05-04",
+            "open": 1195.0,
+            "high": 1195.0,
+            "low": 1165.199951171875,
+            "close": 1168.4000244140625,
+            "volume": 7735811
+        },
+        {
+            "date": "2026-05-05",
+            "open": 1169.5,
+            "high": 1185.199951171875,
+            "low": 1160.0999755859375,
+            "close": 1178.0999755859375,
+            "volume": 8164108
+        },
+        {
+            "date": "2026-05-06",
+            "open": 1187.0,
+            "high": 1191.5,
+            "low": 1164.0999755859375,
+            "close": 1167.199951171875,
+            "volume": 9856963
+        },
+        {
+            "date": "2026-05-07",
+            "open": 1173.0,
+            "high": 1175.4000244140625,
+            "low": 1159.199951171875,
+            "close": 1162.699951171875,
+            "volume": 12013987
+        },
+        {
+            "date": "2026-05-08",
+            "open": 1161.0,
+            "high": 1183.5,
+            "low": 1158.800048828125,
+            "close": 1179.199951171875,
+            "volume": 7582770
+        },
+        {
+            "date": "2026-05-11",
+            "open": 1176.0,
+            "high": 1187.0,
+            "low": 1172.0999755859375,
+            "close": 1186.699951171875,
+            "volume": 3161168
         }
     ]
 }

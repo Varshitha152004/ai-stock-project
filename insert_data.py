@@ -17,16 +17,12 @@ def safe_number(v):
 # ======================================================
 
 engine = create_engine(
-    "postgresql://postgres:newpassword123@localhost:5432/stock_screener"
+    "postgresql://neondb_owner:npg_5b9rSdIKHplh@ep-shy-block-aq7ki78o.c-8.us-east-1.aws.neon.tech/neondb?sslmode=require"
 )
 def normalize_symbol(symbol):
 
     indian_stocks = [
-        "INFY","TCS","WIPRO","HCLTECH","RELIANCE","HDFCBANK",
-        "ICICIBANK","KOTAKBANK","SBIN","AXISBANK","LT","ITC",
-        "MARUTI","TATAMOTORS","HINDUNILVR","NESTLEIND",
-        "ASIANPAINT","ULTRACEMCO","BAJAJ-AUTO","DIVISLAB",
-        "ADANIGREEN","ADANIPORTS","ADANIENT","ADANIGAS","ADANITRANS"
+        "INFY","TCS"
     ]
 
     if symbol in indian_stocks:
@@ -37,7 +33,7 @@ def normalize_symbol(symbol):
 # STOCK LIST
 # ======================================================
 
-symbols = ["AAPL", "MSFT", "GOOGL", "AMZN", "TSLA", "NVDA", "INFY", "TCS", "WIPRO", "HCLTECH","RELIANCE","HDFCBANK", "ICICIBANK", "KOTAKBANK", "SBIN", "AXISBANK", "LT", "ITC", "MARUTI", "TATAMOTORS","HINDUNILVR","NESTLEIND","ASIANPAINT","ULTRACEMCO","BAJAJ-AUTO","DIVISLAB","ADANIGREEN","ADANIPORTS","ADANIENT","ADANIGAS","ADANITRANS","ADANIGREEN","ADANIPORTS","ADANIENT","ADANIGAS","ADANITRANS","ADANIGREEN","ADANIPORTS","ADANIENT","ADANIGAS"]
+symbols = ["AAPL", "MSFT"]
 
 DATA_FOLDER = "yf_data"
 
