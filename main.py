@@ -12,7 +12,7 @@ from pydantic import ConfigDict
 from typing import Literal
 from apscheduler.schedulers.background import BackgroundScheduler
 from contextlib import asynccontextmanager
-from google import genai
+import google.generativeai as genai
 from typing import Optional
 from datetime import date
 from datetime import datetime
