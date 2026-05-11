@@ -232,15 +232,23 @@ def login(username, password):
 
 
 def register(username, email, password):
-    return safe_request(
-        "POST",
+
+    payload = {
+        "username": username,
+        "email": email,
+        "password": password
+    }
+
+    response = requests.post(
         f"{API_URL}/auth/register",
-        json={
-            "username": username,
-            "email": email,
-            "password": password
-        }
+        json=payload,
+        headers={"Content-Type": "application/json"}
     )
+
+    try:
+        return response.status_code, response.json()
+    except:
+        return response.status_code, {"message": response.text}
 
 def require_login():
     if st.session_state.token is None:
