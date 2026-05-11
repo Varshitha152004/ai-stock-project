@@ -73,20 +73,28 @@ def error_response(code: str, message: str, layer: str, status_code: int):
 # GEMINI CONFIG
 # ============================================================
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if GEMINI_API_KEY:
-    genai.configure(api_key=GEMINI_API_KEY)
-    ai_client = genai.GenerativeModel("gemini-2.0-flash")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
+print("GOOGLE_API_KEY FOUND:", bool(GOOGLE_API_KEY))
+
+if GOOGLE_API_KEY:
+
+    genai.configure(api_key=GOOGLE_API_KEY)
+
+    ai_client = genai.GenerativeModel(
+        model_name="gemini-1.5-flash"
+    )
+
+    print("Gemini client initialized.")
+
 else:
+
     ai_client = None
+    print("Gemini API key missing.")
 #if ai_client:
     #print("Listing available models...")
     #for model in ai_client.models.list():
       #  print(model.name)
-if ai_client:
-    print("Gemini client initialized.")
-else:
-    print("Gemini client NOT initialized.")
 
 # ============================================================
 # SCHEDULER SETUP
