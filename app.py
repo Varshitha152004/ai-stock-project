@@ -3,7 +3,7 @@ from urllib import response
 import streamlit as st # for frontend
 import requests
 import pandas as pd
-
+import os
 # restore token from query params
 params = st.query_params
 if "logout" in params:
@@ -28,7 +28,11 @@ if "folder" in params:
 
 if "show_account_popup" not in st.session_state:
     st.session_state.show_account_popup = False
-API_URL = "https://ai-stock-project-hj82.onrender.com"
+
+API_URL = os.getenv(
+    "API_URL",
+    "https://ai-stock-project-hj82.onrender.com"
+)
 
 st.set_page_config(
     page_title="StockX AI",
