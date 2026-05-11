@@ -1,6 +1,6 @@
 from urllib import response
 
-import streamlit as st
+import streamlit as st # for frontend
 import requests
 import pandas as pd
 
