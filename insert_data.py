@@ -1,11 +1,12 @@
 import math
-
 import yfinance as yf
 import json
 import os
 import time
 from datetime import datetime
 from sqlalchemy import create_engine, text
+from dotenv import load_dotenv
+load_dotenv()
 def safe_number(v):
     if v is None:
         return 0
@@ -16,9 +17,9 @@ def safe_number(v):
 # DATABASE CONNECTION
 # ======================================================
 
-engine = create_engine(
-    "postgresql://neondb_owner:npg_5b9rSdIKHplh@ep-shy-block-aq7ki78o.c-8.us-east-1.aws.neon.tech/neondb?sslmode=require"
-)
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+engine = create_engine(DATABASE_URL)
 def normalize_symbol(symbol):
 
     indian_stocks = [
