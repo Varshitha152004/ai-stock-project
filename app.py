@@ -322,7 +322,7 @@ if st.session_state.show_login:
         col1, col2 = st.columns(2)
 
         with col1:
-            if st.button(mode,width='stretch', type="primary"):
+            if st.button(mode, type="primary"):
 
                 if username == "" or password == "":
                     st.warning("Fill required fields")
