@@ -7,7 +7,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from sqlalchemy import text
 from compiler import build_sql_from_dsl
-from pydantic import BaseModel, EmailStr, Field
+from pydantic import BaseModel, Field
 from pydantic import ConfigDict
 from typing import Literal
 from apscheduler.schedulers.background import BackgroundScheduler
@@ -139,7 +139,7 @@ async def rate_limit_handler(request: Request, exc: RateLimitExceeded):
 
 class RegisterRequest(BaseModel):
     username: str = Field(..., min_length=3)
-    email: EmailStr
+    email: str
     password: str = Field(..., min_length=6)
 
 class NLRequest(BaseModel):
