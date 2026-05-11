@@ -1072,6 +1072,27 @@ def screener(
 
     return success_response(data=results)
 
+@app.get("/gemini-test")
+def gemini_test():
+
+    try:
+
+        response = ai_client.generate_content(
+            "Say hello"
+        )
+
+        return {
+            "success": True,
+            "response": response.text
+        }
+
+    except Exception as e:
+
+        return {
+            "success": False,
+            "error": str(e)
+        }
+
 # ============================================================
 # PORTFOLIO CRUD 
 # ============================================================
