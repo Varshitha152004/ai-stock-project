@@ -653,6 +653,9 @@ def parse_query_with_llm(query_text: str):
 
     if not ai_client:
         raise HTTPException(status_code=500, detail="AI service not configured.")
+    
+    print("AI CLIENT:", ai_client)
+    print("STARTING GEMINI REQUEST")
 
     response = ai_client.generate_content("""
 You are a deterministic query translator.
@@ -764,6 +767,7 @@ User Query:
     )
 
     raw = response.text.strip()
+    print("RAW RESPONSE:", raw)
 
     # Remove markdown if Gemini adds it
     raw = raw.replace("```json", "").replace("```", "").strip()
@@ -858,7 +862,8 @@ def screener(
             }
 
     except Exception as e:
-        print(" Gemini failed:", str(e))
+        print("FULL GEMINI ERROR:")
+        print(traceback.format_exc())
 
         # If quota exceeded or AI fails
         raise HTTPException(
