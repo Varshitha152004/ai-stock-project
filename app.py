@@ -299,7 +299,7 @@ if st.session_state.show_login:
     
 
     with left:
-        st.image("images/login.jpg", width='stretch')
+        st.image("images/login.jpg")
 
     #  RIGHT SIDE → LOGIN FORM
     with right:
